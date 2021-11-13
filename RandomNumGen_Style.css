@@ -1,0 +1,73 @@
+﻿body
+{
+    background-color:lightskyblue;
+}
+
+h1
+{
+    text-align:center;
+}
+
+h4
+{
+    margin: 0;
+    text-align:center;
+}
+
+.Min
+{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+#min 
+{
+    border-radius: 3px;
+    font-size: 25px;
+    width: 250px;
+    margin:auto;
+    display: block;
+}
+
+.Max 
+{
+    margin: 0;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#max
+{
+    border-radius: 3px;
+    font-size: 25px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.Button
+{
+    text-align:center;
+}
+
+#button
+{
+    font-size:20px;
+}
+
+.Result
+{
+    margin: 0;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#number
+{
+    border-radius: 3px;
+    font-size: 25px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}

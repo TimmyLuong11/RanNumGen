@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="RandomNumGen_Style.css"/>
+</head>
+<body>
+    <h1>Welcome To The Random Number Generator!</h1>
+
+    <div class="Min">
+        <h4>Minimun Number</h4>
+        <input type="number" id="min" />
+    </div>
+
+    <div class="Max">
+        <h4>Maximum Number</h4>
+        <input type="number" id="max" />
+    </div>
+
+    <div class="Button">
+        <!-- <input type="submit" id="button" value="Generate!" /> -->
+        <input type="button" id="button" value="Generate!" onclick="ranNum()" />
+    </div>
+
+    <div class="Result">
+        <h4>Result</h4>
+        <input type="text" id="number" />
+    </div>
+
+    <script>
+        function ranNum()
+        {
+            var min1 = document.getElementById("min").value;
+            var max1 = document.getElementById("max").value;
+            var min = Math.ceil(min1);
+            var max = Math.floor(max1);
+            document.getElementById("number").value = Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
+
+</body>
+</html>
