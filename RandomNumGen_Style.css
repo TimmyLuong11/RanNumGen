@@ -19,6 +19,7 @@ h4
     margin: 0;
     padding: 0;
     font-size: 25px;
+    text-align:center;
 }
 
 #min 
@@ -31,7 +32,6 @@ h4
     border-block-color: black;
     border-left-color: black;
     border-right-color: black;
-    text-align:center;
 }
 
 .Max 
@@ -39,6 +39,7 @@ h4
     margin: 0;
     padding: 15px;
     font-size: 25px;
+    text-align:center;
 }
 
 #max 
@@ -51,7 +52,6 @@ h4
     border-block-color: black;
     border-left-color: black;
     border-right-color: black;
-    text-align: center;
 }
 
 .Button
@@ -69,7 +69,6 @@ h4
     margin: 0;
     padding: 15px;
     font-size: 25px;
-    text-align: center;
 }
 
 #number 
@@ -85,6 +84,7 @@ h4
     border-block-color: black;
     border-left-color:black;
     border-right-color:black;
+    text-align:center;
 }
 
 img 
