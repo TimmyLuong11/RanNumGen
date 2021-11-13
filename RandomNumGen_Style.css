@@ -26,8 +26,11 @@ h4
     border-radius: 3px;
     font-size: 25px;
     width: 250px;
-    margin:auto;
+    margin: auto;
     display: block;
+    border-block-color: black;
+    border-left-color: black;
+    border-right-color: black;
 }
 
 .Max 
@@ -37,13 +40,16 @@ h4
     font-size: 25px;
 }
 
-#max
+#max 
 {
     border-radius: 3px;
     font-size: 25px;
     width: 250px;
     margin: auto;
     display: block;
+    border-block-color: black;
+    border-left-color: black;
+    border-right-color: black;
 }
 
 .Button
@@ -63,11 +69,17 @@ h4
     font-size: 25px;
 }
 
-#number
+#number 
 {
     border-radius: 3px;
     font-size: 25px;
     width: 250px;
     margin: auto;
     display: block;
+    pointer-events: none;
+    color:black;
+    background-color:white;
+    border-block-color: black;
+    border-left-color:black;
+    border-right-color:black;
 }
