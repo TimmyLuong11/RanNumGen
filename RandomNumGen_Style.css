@@ -83,3 +83,12 @@ h4
     border-left-color:black;
     border-right-color:black;
 }
+
+img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+}
